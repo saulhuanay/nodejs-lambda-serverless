@@ -1,0 +1,14 @@
+service: serverless-prueba
+
+provider: 
+  name: aws
+  runtime: nodejs14.12.0
+
+functions: 
+  Prueba:
+    handler: handler.handler
+    events:
+      - http:
+          path: path-de-prueba
+          method: get
+          cors: true

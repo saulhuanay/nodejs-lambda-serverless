@@ -8,7 +8,6 @@ const dbConnections = {
 		name: 'main',
 		driver: 'mongodb',
 		uri: 'mongodb+srv://sa:B1admin23@cluster0-souu7.gcp.mongodb.net/habacuc?retryWrites=true&w=majority',
-		// uri: 'mongodb://localhost:27017/habacuc',
 		required: true,
 		enable: true,
     }
